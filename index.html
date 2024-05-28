@@ -1,0 +1,1663 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SubtreX | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">SBTRX</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#academics">Academics</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#creative">Creative</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">SBTRX</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#academics" onclick="toggleMenu()">Academics</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#creative" onclick="toggleMenu()">Creative</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Subhadeep Jana</h1>
+        <p class="section__text__p2">Developer & Designer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume_subhadeep_jana.pdf')"
+          >
+            Resume
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn"
+            class="icon"
+            onclick="window.open('https://linkedin.com/in/subhadeepjana/')"
+          />
+          <img
+            src="./assets/github.png"
+            alt="GitHub"
+            class="icon"
+            onclick="window.open('https://github.com/subtrex')"
+          />
+          <img
+            src="./assets/youtube.png"
+            alt="YouTube"
+            class="icon"
+            onclick="window.open('https://youtube.com/subtrex')"
+          />
+          <img
+            src="./assets/x.png"
+            alt="Twitter"
+            class="icon"
+            onclick="window.open('https://x.com/SubtreX_YT')"
+          />
+          <img
+            src="./assets/instagram.png"
+            alt="Instagram"
+            class="icon"
+            onclick="window.open('https://instagram.com/subtrex')"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ year <br />Software Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech. Computer Science<br />M.S. Computer Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Passionate software developer and designer with a knack for tackling complex problems with elegant optimized solutions. 
+              An enthusiast of web development, machine learning, computer vision, and multimedia arts; I like blending technical prowess 
+              with a creative touch. Dedicated to continuous learning and developing impactful products.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#academics'"
+      />
+    </section>
+    <section id="academics">
+      <p class="section__text__p1">View My</p>
+      <h1 class="title">Academics</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <div class="certi-article-container">
+              <article id="certi-box">
+                <img
+                  src="./assets/iu-college.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Master of Science in Computer Science</h3>
+                  <h4>Indiana University Bloomington, USA</h4>
+                  <p>
+                    <i>Aug 2022 - May 2024</i>
+                  </p>
+                  <p>
+                    <b>CGPA:</b> 3.87/4.00
+                  </p>
+                  <p>
+                    <b>Courses:</b> Software Engineering, Applied Algorithms, Applied Machine Learning, Advanced
+                    Database Technologies, Elements of Artificial Intelligence
+                  </p>
+                </div>
+              </article>
+              <article id="certi-box">
+                <img
+                  src="./assets/gcect-college.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bachelor of Technology in Computer Science</h3>
+                  <h4>GCECT, Kolkata</h4>
+                  <p>
+                    <i>Aug 2017 - July 2021</i>
+                  </p>
+                  <p>
+                    <b>CGPA:</b> 3.63/4.00
+                  </p>
+                  <p>
+                    <b>Courses:</b> Data Structures, Software Engineering, Operating System, Artificial Intelligence, Database Management
+                    Systems
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="certi-article-container">
+              <article id="certi-box">
+                <img
+                  src="./assets/mckv.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Higher Secondary (I.S.C.)</h3>
+                  <h4>M. C. Kejriwal Vidyapeeth, Howrah</h4>
+                  <p>
+                    <i>2017</i>
+                  </p>
+                  <p>
+                    <b>CGPA:</b> 91.5%
+                  </p>
+                  <p>
+                    <b>Courses:</b> Computer, Mathematics, Physics
+                  </p>
+                </div>
+              </article>
+              <article id="certi-box">
+                <img
+                  src="./assets/mckv.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Secondary (I.C.S.E.)</h3>
+                  <h4>M. C. Kejriwal Vidyapeeth, Howrah</h4>
+                  <p>
+                    <i>2015</i>
+                  </p>
+                  <p>
+                    <b>CGPA:</b> 96.2%
+                  </p>
+                  <p>
+                    <b>Courses:</b> Physics, Chemistry, Mathematics, Biology
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/python.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/java.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/c.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/cpp.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/javascript.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/sql.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/nosql.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>NoSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/bash.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bash</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Python Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/flask.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Flask</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/numpy.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>NumPy</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/opencv.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>OpenCV</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/librosa.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Librosa</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/tensorflow.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TensorFlow</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/pytorch.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PyTorch</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/scikitlearn.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>scikit-learn</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/pandas.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>pandas</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/html.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/css.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/bootstrap.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/tailwindcss.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TailwindCSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Databases</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/sqlite.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQLite</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/mysql.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/postgresql.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/mongodb.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MongoDB</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">JS Frameworks</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/reactjs.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/nextjs.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>NextJS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/plotlyjs.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PlotlyJS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/chartjs.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ChartJS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/jspsych.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>jsPsych</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/nodejs.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node.js</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/git.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/vscode.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>VS Code</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/jupyternotebook.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Jupyter</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/eclipse.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Eclipse</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/postman.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Postman</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/powerbi.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PowerBI</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Testing</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/pytest.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Pytest</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/unittest.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>unittest</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/selenium.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Selenium</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/beautifulsoup.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>BeautifulSoup</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Media</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/photoshop.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Photoshop</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/premierepro.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Premiere Pro</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/lightroom.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Lightroom</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/procreate.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Procreate</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="certifications">
+      <p class="section__text__p1">Traverse My</p>
+      <h1 class="title">Certifications</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <div class="certi-article-container">
+              <article id="certi-box">
+                <img
+                  src="./assets/aws.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Solution Architect Associate (CAA-03)</h3>
+                  <p>AWS</p>
+                </div>
+              </article>
+              <article id="certi-box">
+                <img
+                  src="./assets/coursera.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Machine Learning - Stanford University</h3>
+                  <p>Coursera</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="certi-article-container">
+              <article id="certi-box">
+                <img
+                  src="./assets/deeplearning.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Neural Networks and Deep Learning</h3>
+                  <p>deeplearning.ai</p>
+                </div>
+              </article>
+              <article id="certi-box">
+                <img
+                  src="./assets/deeplearning.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Advanced Computer Vision with TensorFlow</h3>
+                  <p>deeplearning.ai</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Dive Into My</p>
+      <h1 class="title">Experience</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/iu.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/org.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Organization</h3>
+              <p>Indiana University</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Position</h3>
+              <p>Research Assistant</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/tenure.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Tenure</h3>
+              <p>Feb 2024 - Present</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Engaged in developing a cognitive experiment to study Judgment of Imminence (JOI) and Judgment of Recency (JOR) in humans,
+              utilizing JavaScript and jsPysch. Worked on deploying the experiment using psiturk, and stored test results in a MySQL database 
+              using Flask APIs. Improved trial accuracies by 35% through integration of modified experiment structure, balanced probe distribution, 
+              and real-time accuracy feedback for the participants.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/org.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Organization</h3>
+              <p>IXXO Lambda Vision</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Position</h3>
+              <p>Software Engineer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/tenure.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Tenure</h3>
+              <p>Jan 2021 - Jun 2022</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Developed a ReactJS-based dashboard that leverages computer vision to detect key physical features in cars, integrating it seamlessly 
+              with an API gateway. Engineered a Flask-based backend to serve a YOLOv3 object detection model as a REST API, deploying it on AWS EC2 
+              and ensuring thorough unit and integration testing using Pytest with 75% code coverage. Additionally, designed an AWS Lambda pipeline 
+              in Python to automate feature extraction from over 80,000 car images stored in an AWS S3 bucket, ingesting the data into a PostgreSQL 
+              database for model training. By applying advanced image processing techniques in scikit-image and OpenCV, improved color detection 
+              accuracy by 20%. Collaborated in a cross-functional Agile team of seven, ensuring seamless feature integration and delivering 
+              high-quality results.
+            </p>
+          </div>
+        </div>
+        <div class="section__pic-container">
+          <img
+            src="./assets/ixxo.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/gcectcodechef.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/org.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Organization</h3>
+              <p>CodeChef GCECT Chapter</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Position</h3>
+              <p>Graphic Designer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/tenure.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Tenure</h3>
+              <p>Aug 2019 - Jul 2020</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Served as the Graphic Designer and helped brainstorm posters, magazines, and certificates. Used Adobe Photoshop, Illustrator, and Canva
+              to design engaging content for the organization.   
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/org.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Organization</h3>
+              <p>GCECT Students' Welfare Association</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Position</h3>
+              <p>Head of Design</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/tenure.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Tenure</h3>
+              <p>Jan 2019 - Apr 2019</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Conceptualized and produced a diverse range of design assets, including logos, brochures, banners, posters, souvenirs, and 
+              merchandise for various social events and fests, demonstrating proficiency in Adobe Photoshop, Lightroom, Illustrator, and 
+              Premiere Pro. Contributed to the frontend development of the college fest website using HTML, CSS, and ReactJS. Additionally, 
+              served as a core committee member, assisting in the coordination and organization of events such as career and tech fairs.
+            </p>
+          </div>
+        </div>
+        <div class="section__pic-container">
+          <img
+            src="./assets/gcect.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/mgc.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <div class="project-details-container">
+              <h2 class="experience-sub-title project-title">Music Genre Classification</h2>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://ijebss.ph/index.php/ijebss/article/view/55')"
+              >
+                Link
+              </button>
+            </div>
+            <br>
+            <div class="text-container">
+              <p>A comparative analysis of 10+ machine learning models 10+ machine learning models for music genre classification, including
+                regression, tree-based, probabilistic models in scikit-learn and neural models in TensorFlow.</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/gadgetry.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <div class="project-details-container">
+              <h2 class="experience-sub-title project-title">Gadgetry</h2>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.iu.edu/subjana/gadgetry')"
+              >
+                Link
+              </button>
+            </div>
+            <br>
+            <div class="text-container">
+              <p>An electronic product review website for the users to compare ratings of most popular electronic gadgets.</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/pageturner.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <div class="project-details-container">
+              <h2 class="experience-sub-title project-title">PageTurner</h2>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://pageturnerse.netlify.app/')"
+              >
+                Link
+              </button>
+            </div>
+            <br>
+            <div class="text-container">
+              <p>An interactive social media website for bibliophiles to share their love of books and connect with fellow book readers.</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/stockhive.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <div class="project-details-container">
+              <h2 class="experience-sub-title project-title">StockHive</h2>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://subtrex-stockhive-home-2lqvm3.streamlit.app/')"
+              >
+                Link
+              </button>
+            </div>
+            <br>
+            <div class="text-container">
+              <p>A beginner friendly stock data forecasting web application to provide insightful graphical visualizations and
+                forecasts on stock data.</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/kolly.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <div class="project-details-container">
+              <h2 class="experience-sub-title project-title">Kolly: Generative Travel Chatbot</h2>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://www.ijcseonline.org/pub_paper/4-IJCSE-08440.pdf')"
+              >
+                Link
+              </button>
+            </div>
+            <br>
+            <div class="text-container">
+              <p>A generative type travel chatbot based on the Seq2Seq model which can answer basic user queries on Kolkata tourism.</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/ancd.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <div class="project-details-container">
+              <h2 class="experience-sub-title project-title">Advanced No-Contact Doorbell</h2>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/subtrex/advanced-nocontact-doorbell')"
+              >
+                Link
+              </button>
+            </div>
+            <br>
+            <div class="text-container">
+              <p>A contactless doorbell system working on the principles of background subtraction and countour detection to detect hand.</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/wordwise.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <div class="project-details-container">
+              <h2 class="experience-sub-title project-title">WordWise</h2>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/subtrex')"
+              >
+                Link
+              </button>
+            </div>
+            <br>
+            <div class="text-container">
+              <p>An app aimed to effectively improve vocabulary by cataloguing words into 3 difficulty levels and generating interactive
+                flashcards for the user, working on a corpus of 1500 words.</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/valorant.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <div class="project-details-container">
+              <h2 class="experience-sub-title project-title">Realtime Match Outcome Prediction</h2>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/subtrex')"
+              >
+                Link
+              </button>
+            </div>
+            <br>
+            <div class="text-container">
+              <p>An approach to predict the outcome of a Valorant match in realtime through feature engineering on features like
+                Kills, Deaths, Assists, Average Combat Score and Kill to Death Ratio.
+              </p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/sodas.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <div class="project-details-container">
+              <h2 class="experience-sub-title project-title">S.O.D.A.S</h2>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/subtrex')"
+              >
+                Link
+              </button>
+            </div>
+            <br>
+            <div class="text-container">
+              <p>Space Object Detection & Avoidance System (S.O.D.A.S) - A concept algorithm for a self driving aerial vehicle which can automate 
+                navigation and obstactle avoidance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#creative'"
+      />
+    </section>
+    <section id="publications">
+      <p class="section__text__p1">See My</p>
+      <h1 class="title">Publications</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <div class="certi-article-container">
+              <article id="certi-box">
+                <img
+                  src="./assets/gjcst.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Comparative Study of OpenCV Inpainting Algorithms</h3>
+                  <p>
+                    <i>Global Journal of Computer Science and Technology: Interdisciplinary, Vol. 21, Issue. 2, pp. 27-37</i>
+                  </p>
+                  <p>
+                    Aug 2021
+                  </p>
+                  
+                </div>
+              </article>
+              <article id="certi-box">
+                <img
+                  src="./assets/ijcse.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Proposal of a Generative type Travel Chatbot using Seq2Seq model</h3>
+                  <p>
+                    <i>International Journal of Computer Sciences and Engineering, Vol. 8, Issue. 12, pp. 21-26</i>
+                  </p>
+                  <p>
+                    Dec 2020
+                  </p>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="certi-article-container">
+              <article id="certi-box">
+                <img
+                  src="./assets/ijebss.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>A Study on Music Genre Classification using Machine Learning</h3>
+                  <p>
+                    <i>International Journal of Engineering Business and Social Science, Vol. 1, Issue. 4, pp. 308-320</i>
+                  </p>
+                  <p>
+                    Apr 2023
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section id="creative">
+      <p class="section__text__p1">Dive Into My</p>
+      <h1 class="title">Creatives</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/youtube-subtrex.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://youtube.com/subtrex')"
+              >
+                SubtreX
+              </button>
+            </div>
+            <br>
+            <div class="text-container">
+              <p>A time capsule to capture my journey of life.</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/insta-subtrex.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://instagram.com/subtrex')"
+              >
+                subtrex
+              </button>
+            </div>
+            <br>
+            <div class="text-container">
+              <p>A gallery to showcase my visual arts.</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/insta-its.subtrex.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://instagram.com/its.subtrex')"
+              >
+                its.subtrex
+              </button>
+            </div>
+            <br>
+            <div class="text-container">
+              <p>A canvas for my creative artsy side.</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/trexert.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://instagram.com/trexert.studios')"
+              >
+                TREXERT
+              </button>
+            </div>
+            <br>
+            <div class="text-container">
+              <p>A studio home to colorful fashion.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/kizaikollect.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://instagram.com/kizaikollect')"
+              >
+                Kizai Kollect
+              </button>
+            </div>
+            <br>
+            <div class="text-container">
+              <p>An armada of adorable art and accessories.</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/nexus9.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://tree.ly/nexus9creative')"
+              >
+                NEXUS9 Creative
+              </button>
+            </div>
+            <br>
+            <div class="text-container">
+              <p>A digital media house to create artful videos.</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+          </div>
+          <div class="details-container color-container">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="awards">
+      <p class="section__text__p1">Glance At My</p>
+      <h1 class="title">Awards & Achievements</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <div class="certi-article-container">
+              <article id="certi-box">
+                <img
+                  src="./assets/iu-college.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>2nd in CRNY Data Visualization Competition</h3>
+                  <h4>Indiana University Bloomington</h4>
+                  <p>
+                    <i>Dec 2023</i>
+                  </p>
+                  <p>
+                    Secured 2nd position and awarded $1500 for developing a visualization dashboard in the CRNY data visualization competition
+                    hosted by IU Center for Cultural Affairs.
+                  </p>
+                </div>
+              </article>
+              <article id="certi-box">
+                <img
+                  src="./assets/rotary.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>2nd in Talent Hunt at A.I.M 2015</h3>
+                  <h4>Rotary Club of Calcutta</h4>
+                  <p>
+                    <i>Jun 2015</i>
+                  </p>
+                  <p>
+                    Secured 2nd position for beatboxing in Talent Hunt competition at A.I.M 2015, organized by the Rotary Club of Calcutta.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="certi-article-container">
+              <article id="certi-box">
+                <img
+                  src="./assets/mckv.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>30% Merit Scholarship for Excellent Academic Performance</h3>
+                  <h4>M. C. Kejriwal Vidyapeeth</h4>
+                  <p>
+                    <i>Jul 2015</i>
+                  </p>
+                  <p>
+                    Awarded a merit scholarship of 30% by school management for scoring 96.2% in I.C.S.E. 2015.
+                  </p>
+                </div>
+              </article>
+              <article id="certi-box">
+                <img
+                  src="./assets/iupui.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>1st at IUPUI Diwali Showcase 2022</h3>
+                  <h4>IUPUI</h4>
+                  <p>
+                    <i>Sep 2022</i>
+                  </p>
+                  <p>
+                    Secured 1st position as a member of Hum@IU, IUB's premier Indian fusion acapella group.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:jsubhadeep1999@gmail.com">Email</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/subhadeepjana/">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/github.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.github.com/subtrex">GitHub</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/youtube.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.youtube.com/subtrex">SubtreX</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/instagram.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.instagram.com/subtrex">subtrex</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/instagram.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.instagram.com/its.subtrex">its.subtrex</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#academics">Academics</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#creative">Creative</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Sic Parvis Magna &#169; SubtreX</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

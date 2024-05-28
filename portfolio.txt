@@ -1,0 +1,48 @@
+Languages: 8
+
+Python Tools: Flask, OpenCV, Keras, TensorFlow, Librosa, scikit-learn, pandas, NumPy
+
+Frontend: HTML, CSS, Bootstrap, TailwindCSS
+
+Databases: MySQL, PostgreSQL, MongoDB, SQLite
+
+JS Frameworks: ReactJS, NextJS, Plotly.js, Chart.js, jsPsych, Node.js
+
+Tools: Git, VS Code, Jupyter Notebook, Eclipse, Postman, PowerBI
+
+Testing: Pytest, unittest, Selenium, beautifulsoup
+
+Design: Adobe Photoshop, Adobe Premiere Pro, Adobe lightroom, procreate
+
+Cloud: AWS s3, AWS ec2, AWS Lambda
+
+Platforms: Windows, Linux,
+
+
+Creative:
+
+1. Trexert Studio
+2. Kizai Kollect
+3. YouTube
+4. 
+
+A/A:
+
+1. CRNY 2nd place
+2. 2nd in beatboxing
+3. merit scholarship
+
+
+
+Sections:
+
+About
+Academics (with Skills, certifications)
+Experience
+Projects (with publications)
+Creative (with awards & achievements)
+Contact
+
+
+
+
